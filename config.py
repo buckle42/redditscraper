@@ -1,0 +1,4 @@
+# config.py
+REDDIT_CLIENT_ID = 'Paste REDDIT_CLIENT_ID Here'
+REDDIT_CLIENT_SECRET = 'Paste REDDIT_CLIENT_SECRET Here'
+REDDIT_USER_AGENT = 'Paste your REDDIT_USER_AGENT example --> /u/UserNameHere'
