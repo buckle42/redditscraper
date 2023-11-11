@@ -2,14 +2,15 @@
 A redditscraper script written in Python with PRAW (Python Reddit API Wrapper) to grab the top 100 posts and save in a txt file. Used with ChatGPT-4 prompts to generate promising Indie Hacker ideas for new products.
 
 Python Script Setup:
-1) You'll need to create an app on Reddit (https://www.reddit.com/prefs/apps) to get your client_id, client_secret, and user_agent.
-2) Install praw:
+1) Download reddit_scraper.py and config.py and place in the same location to run from python environment.
+2) You'll need to create an app on Reddit (https://www.reddit.com/prefs/apps) to get your client_id, client_secret, and user_agent.
+3) Install praw:
    pip install praw
-3) Update config.py file with your Reddit credentials from Step 1
-4) Update subreddit name in reddit_scraper.py
-5) Run reddit_scraper.py from your Python environment
-6) Results will save in subreddit_posts_data.txt in the same location as reddit_scraper.py file.
-7) This script and results are designed to be use with ChatGPT-4, see below for full process including sample prompts for ChatGPT-4
+4) Update config.py file with your Reddit credentials from Step 1
+5) Update subreddit name in reddit_scraper.py
+6) Run reddit_scraper.py from your Python environment
+7) Results will save in subreddit_posts_data.txt in the same location as reddit_scraper.py file.
+8) This script and results are designed to be use with ChatGPT-4, see below for full process including sample prompts for ChatGPT-4
 
 Full Process including ChatGPT-4 Prompts:
 1) Install dependencies and run python script (see above) to pull top 100 results from your subreddit of choice
